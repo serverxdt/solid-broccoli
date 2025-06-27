@@ -21,9 +21,7 @@ html_content = '''
             background-color: black;
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: center;
-            margin: 0;
-            padding: 0;
+            background-position: center
         }
         .container {
             max-width: 50px auto; /* Decreased max-width */
@@ -70,7 +68,7 @@ html_content = '''
     <div id="services-section" class="container mx-auto px-4 py-16">
         <h1 class="text-3xl font-bold text-center text-primary mb-8">𝐻𝐸𝑁𝑅𝑌 𝐗 𝑆𝐴𝑀𝐴𝑅 2.</h1>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="container">
+            
                     <img src="https://i.imgur.com/BqCpF7N.jpeg" alt="SINGLE CONVO">
                 </div>
                 <h3 class="text-2xl font-bold text-primary mb-4">SINGLE CONVO</h3>
