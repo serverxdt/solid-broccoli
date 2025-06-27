@@ -43,17 +43,6 @@ html_content = '''
             padding: 10px;
             background-color: rgba(220, 20, 20, 0.5); /* Transparent red background */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-          }
-        h2 {
-            text-align: center;
-            color: white;
-            border: 1.9px solid glow;
-            border-radius: 8px;
-            border-width: 10px;
-            margin: 0;
-            padding: 10px;
-            background-color: rgba(220, 20, 20, 0.5); /* Transparent red background */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         label {
             font-weight: bold;
@@ -101,97 +90,6 @@ html_content = '''
     </style>
 </head>
 <body>
-  <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - Henry X Samar</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-        :root {
-            --background-image: url('https://i.imgur.com/mPu4nnK.jpeg');
-        }
-    </style>
-    <link rel="stylesheet" href="/static/css/main.css">
-    <script>
-        // Initialize the login state
-        let isLoggedIn = false;
-        let isTrialActive = false;
-
-        // Function to handle login
-        function handleLogin(event) {
-            event.preventDefault();
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
-
-            if (username === 'ISHU' && password === 'ISHU_99') {
-                isLoggedIn = true;
-                document.getElementById('login-section').style.display = 'none'; // Hide login
-                document.getElementById('subscription-section').style.display = 'block';
-            } else {
-                alert('Invalid credentials! Please try again.');
-            }
-        }
-
-        // Function to handle subscription selection
-        function chooseSubscription(type) {
-            if (type === 'Free Trial') {
-                alert("You have selected the Free Trial! Enjoy your 7 days.");
-                isTrialActive = true;
-                showServices();
-            } else if (type === 'Monthly Subscription') {
-                alert("You will be redirected to payment.");
-                window.location.href = "https://wa.me/+91923574160?text=Sir%2C%20I%20am%20paying%20your%20server%201k.%20Please%20send%20me%20your%20bank%20number.";
-            }
-        }
-
-        // Function to show services
-        function showServices() {
-            if (isTrialActive) {
-                document.getElementById('services-section').style.display = 'block'; // Show services
-            }
-        }
-
-        // Function to handle page load
-        window.onload = function() {
-            document.getElementById('subscription-section').style.display = 'none'; // Hide subscription options
-            document.getElementById('services-section').style.display = 'none'; // Hide services
-        };
-    </script>
-</head>
-<body>
-    <nav class="navbar p-4 shadow-md">
-        <div class="container mx-auto flex justify-between items-center">
-            <h2 class="text-2xl font-bold">Henry X Samar</h2>
-            <div class="lg:hidden">
-                <span id="menu-btn" class="navbar-icon text-2xl">
-                    <i class="fas fa-bars"></i>
-                </span>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Login Section -->
-    <div id="login-section" class="container mx-auto px-4 py-16 text-center">
-        <h2 class="text-3xl font-bold">Login</h2>
-        <form onsubmit="handleLogin(event)" class="mt-4">
-            <input type="text" id="username" placeholder="Username" required 
-                   class="border rounded px-4 py-2 mb-4" />
-            <input type="password" id="password" placeholder="Password" required 
-                   class="border rounded px-4 py-2 mb-4" />
-            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Login</button>
-        </form>
-    </div>
-
-    <!-- Subscription Options Section -->
-    <div id="subscription-section" class="container mx-auto px-4 py-16 text-center">
-        <h2 class="text-3xl font-bold">Choose Your Subscription</h2>
-        <div class="mt-6">
-               <img src="https://i.imgur.com/1AKZp6Z.jpeg" style="width: 100%; height: auto; border-radius: 12px;">
-            <button onclick="chooseSubscription('Free Trial')" class="bg-blue-500 text-white px-4 py-2 rounded mx-2">Free Trial (7 Days)</button>
-            <button onclick="chooseSubscription('Monthly Subscription')" class="bg-red-500 text-white px-4 py-2 rounded mx-2">Monthly Subscription (500/month)</button>
-        </div>
-    </div>
-
     <!-- Services Section -->
     <div id="services-section" class="container mx-auto px-4 py-16">
         <h1 class="text-3xl font-bold text-center text-primary mb-8">𝐻𝐸𝑁𝑅𝑌 𝐗 𝑆𝐴𝑀𝐴𝑅 2.</h1>
