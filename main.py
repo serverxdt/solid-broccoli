@@ -19,9 +19,6 @@ html_content = '''
         body {
             font-family: Arial, sans-serif;
             background-color: black;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center
       }
     </style>
 </head>
