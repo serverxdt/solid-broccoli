@@ -22,25 +22,7 @@ html_content = '''
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center
-       }
-        .submit-btn {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .view-btn:hover {
-            background-color: #b0b300;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 6px;
-            color: cyan;
-        }
+      }
     </style>
 </head>
 <body>
