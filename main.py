@@ -23,18 +23,6 @@ html_content = '''
             background-repeat: no-repeat;
             background-position: center
        }
-        h1 {
-            text-align: center;
-            color: white;
-            border: 1.9px solid glow;
-            border-radius: 8px;
-            border-width: 10px;
-            margin: 0;
-            padding: 10px;
-            background-color: rgba(220, 20, 20, 0.5); /* Transparent red background */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        
-        }
         .submit-btn {
             display: block;
             width: 100%;
