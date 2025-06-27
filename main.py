@@ -18,7 +18,7 @@ html_content = '''
      <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: url('https://i.imgur.com/uMwcqtB.jpeg');
+            background-color: black;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -43,31 +43,7 @@ html_content = '''
             padding: 10px;
             background-color: rgba(220, 20, 20, 0.5); /* Transparent red background */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        label {
-            font-weight: bold;
-            color: auto;
-            display: block;
-            margin: 15px 0 5px;
-        }
-        .input {
-            margin: 10px;
-            background-color: rgba(220, 220, 220, 0.5) ;
-            border: none;
-            outline: none;
-            max-width: 360px;
-            padding: 20px 30px;
-            font-size: 10px;
-            border-radius: 9999px;
-            box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-            color: #fff;
-        }
-        input[type="text"], input[type="number"], input[type="file"] {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+        
         }
         .submit-btn {
             display: block;
@@ -79,12 +55,12 @@ html_content = '''
             border-radius: 4px;
             cursor: pointer;
         }
-        .submit-btn:hover {
+        .view-btn:hover {
             background-color: #b0b300;
         }
         .footer {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 6px;
             color: cyan;
         }
     </style>
@@ -99,7 +75,7 @@ html_content = '''
                 </div>
                 <h3 class="text-2xl font-bold text-primary mb-4">SINGLE CONVO</h3>
                 <p>Ultimate Facebook Message Sender Tool.</p>
-                <a href="https://ishu-server.onrender.com/" class="mt-4 inline-block px-6 py-2 btn-primary rounded-lg">View</a>
+                <a href="https://ishu-server.onrender.com/" class="color-blue mt-4 inline-block px-6 py-2 btn-primary rounded-lg">View</a>
             </div>
 
             <div class="bg-white rounded-lg shadow-lg p-6 text-center relative">
