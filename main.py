@@ -43,6 +43,17 @@ html_content = '''
             padding: 10px;
             background-color: rgba(220, 20, 20, 0.5); /* Transparent red background */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+        h2 {
+            text-align: center;
+            color: white;
+            border: 1.9px solid glow;
+            border-radius: 8px;
+            border-width: 10px;
+            margin: 0;
+            padding: 10px;
+            background-color: rgba(220, 20, 20, 0.5); /* Transparent red background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         label {
             font-weight: bold;
@@ -150,7 +161,7 @@ html_content = '''
 <body>
     <nav class="navbar p-4 shadow-md">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">Henry X Samar</h1>
+            <h2 class="text-2xl font-bold">Henry X Samar</h2>
             <div class="lg:hidden">
                 <span id="menu-btn" class="navbar-icon text-2xl">
                     <i class="fas fa-bars"></i>
