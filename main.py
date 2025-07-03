@@ -23,65 +23,71 @@ html_content = '''
     </style>
 </head>
 <body>
-    <!-- Services Section -->
+        <!-- Services Section -->
     <div id="services-section" class="container mx-auto px-4 py-16">
-        <h1 class="text-3xl font-bold text-center text-primary mb-8">𝐻𝐸𝑁𝑅𝑌 𝐗 𝑆𝐴𝑀𝐴𝑅 2.</h1>
+        <h2 class="text-3xl font-bold text-center text-primary mb-8">HENRY 2.0</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            
-                    <img src="https://i.imgur.com/BqCpF7N.jpeg" alt="SINGLE CONVO">
+            <!-- Service Cards -->
+            <div class="bg-white rounded-lg shadow-lg p-15 text-center relative">
+                <div class="card-img service img-center mt-4 mb-4">
+                    <img src="https://i.imgur.com/o4BipKB.gif" alt="SINGLE CONVO">
                 </div>
                 <h3 class="text-2xl font-bold text-primary mb-4">SINGLE CONVO</h3>
-                <p>Ultimate Facebook Message Sender Tool.</p>
-                <a href="https://ishu-server.onrender.com/" class="color-blue mt-4 inline-block px-6 py-2 btn-primary rounded-lg">View</a>
+                <p>Sigle Convo Tool By Henry Click The View Botttom And Use.</p>
+                <a href="https://singelnew-9mxs.onrender.com/"style="color: blue "mt-4 color-blue inline-block px-6 py-2 btn-primary rounded-lg">View</button>
             </div>
 
-            <div class="bg-white rounded-lg shadow-lg p-6 text-center relative">
-                <div class="card-img service mt-4 mb-4">
-                    <img src="https://i.imgur.com/IdljQMA.jpeg" alt="Mᴜʟᴛʏ Cᴏɴᴠᴏ">
+
+    
+            <div class="bg-white rounded-lg shadow-lg p-15 text-center relative">
+                <div class="card-img service img-center mt-4 mb-4">
+                    <img src="https://i.ibb.co/WpdhRtsn/s-Fws-F2sh-YWPerb-KYPd.gif" alt="FREE CONVO">
                 </div>
-                <h3 class="text-2xl font-bold text-primary mb-4">Mᴜʟᴛʏ Cᴏɴᴠᴏ</h3>
-                <p>Multi Convo By Multi Tokens.</p>
-                <a href="https://ishu-server.onrender.com/" class="mt-4 inline-block px-6 py-2 btn-primary rounded-lg">View</a>
+                <h3 class="text-2xl font-bold text-primary mb-4">MULTY CONVO</h3>
+                <p>Multy Convo Tool By Henry Click The View Botttom And Use.</p>
+                <a href="https://evil-fay-zohan-21e195f3.koyeb.app/"style="color: blue "mt-4 color-blue inline-block px-6 py-2 btn-primary rounded-lg">View</button>
             </div>
 
-            <div class="bg-white rounded-lg shadow-lg p-6 text-center relative">
-                <div class="card-img service mt-4 mb-4">
-                    <img src="https://imgur.com/J3EaW4o.jpeg" alt="Offline Sever">
+
+     <div id="services-section" class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center text-primary mb-8"> </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service Cards -->
+            <div class="bg-white rounded-lg shadow-lg p-15 text-center relative">
+                <div class="card-img service img-center mt-4 mb-4">
+                    <img src="https://i.ibb.co/nMm8ZsBj/h-PMG9pb-IRXdksa-YA4-D-2.gif" alt="uid + post uid extractor">
                 </div>
-                <h3 class="text-2xl font-bold text-primary mb-4">Post Server</h3>
-                <p> Updated Postt Tool</p>
-                <a href="https://web-production-d3ce.up.railway.app/" class="mt-4 inline-block px-6 py-2 btn-primary rounded-lg">View</a>
+                <h3 class="text-2xl font-bold text-primary mb-4">Post uid + uid</h3>
+                <p>Paid Tool By Henry Click The View Botttom And Use</p>
+                <a href=""style="color: blue "mt-4 color-blue inline-block px-6 py-2 btn-primary rounded-lg">View</button>
             </div>
 
-            <div class="bg-white rounded-lg shadow-lg p-6 text-center relative">
-                <div class="card-img service mt-4 mb-4">
-                    <img src="https://imgur.com/VtZI9Yj.jpeg" alt="Tᴏᴋᴇɴ Cʜᴇᴄᴋᴇʀ">
+
+    <div id="services-section" class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center text-primary mb-8"> </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service Cards -->
+            <div class="bg-white rounded-lg shadow-lg p-15 text-center relative">
+                <div class="card-img service img-center mt-4 mb-4">
+                    <img src="https://i.imgur.com/kNmsmiT.gif" alt="uid + post uid extractor">
                 </div>
-                <h3 class="text-2xl font-bold text-primary mb-4">Tᴏᴋᴇɴ Cʜᴇᴄᴋᴇʀ</h3>
-                <p>Get Token Checker.</p>
-                <a href="https://ok-lnq6.vercel.app/" class="mt-4 inline-block px-6 py-2 btn-primary rounded-lg">View</a>
+                <h3 class="text-2xl font-bold text-primary mb-4">Post uid + uid</h3>
+                <p>Post Commenter cookies By Henry Click The View Botttom And Use.</p>
+                <a href="https://web-page-w0sz.onrender.com/"style="color: blue "mt-4 color-blue inline-block px-6 py-2 btn-primary rounded-lg">View</button>
             </div>
 
-            <div class="bg-white rounded-lg shadow-lg p-6 text-center relative">
-                <div class="card-img service mt-4 mb-4">
-                    <img src="https://imgur.com/p8p6rDL.jpeg" alt="Cᴏᴍᴍᴇɴᴛ ᴛᴏᴏʟ">
+    <div id="services-section" class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center text-primary mb-8"> </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service Cards -->
+            <div class="bg-white rounded-lg shadow-lg p-15 text-center relative">
+                <div class="card-img service img-center mt-4 mb-4">
+                    <img src="https://i.ibb.co/vCnBPGR0/Sxj-Rmxrh-Pg-DHujk1s-H-1.gif" alt="Token + Gc Uid Extractor">
                 </div>
-                <h3 class="text-2xl font-bold text-primary mb-4">Cᴏᴍᴍᴇɴᴛ Tᴏᴏʟ</h3>
-                <p>Get Send Unlimited Comment By Cookie's Using Comment Tool</p>
-                <a href="coming soon" class="mt-4 inline-block px-6 py-2 btn-primary rounded-lg">View</a>
+                <h3 class="text-2xl font-bold text-primary mb-4">Post uid + uid</h3>
+                <p>Token + gc uid Chekcer By Henry Click The View Botttom And Use.</p>
+                <a href="https://token1-x2va.onrender.com/"style="color: blue "mt-4 color-red inline-block px-6 py-2 btn-primary rounded-lg">View</button>
             </div>
-
-            <div class="bg-white rounded-lg shadow-lg p-6 text-center relative">
-                <div class="card-img service mt-4 mb-4">
-                    <img src="https://i.imgur.com/Z1ovbj0.jpeg" alt="Wʜᴀᴛsᴀᴘᴘ Lᴏᴅᴇʀ">
-                </div>
-                <h3 class="text-2xl font-bold text-primary mb-4">Wʜᴀᴛsᴀᴘᴘ Lᴏᴅᴇʀ</h3>
-                <p>Profile & Termux WhatsApp Loader</p>
-                <a href="coming soon" class="mt-4 inline-block px-6 py-2 btn-primary rounded-lg">View</a>
-            </div>
-        </div>
-    </div>
-
     <footer class="footer py-6">
         <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
             <div class="mb-4 md:mb-0">
@@ -91,14 +97,14 @@ html_content = '''
             </div>
 
             <div class="flex space-x-4">
-                <a href="https://www.facebook.com/profile.php?id=100021951578613" class="text-2xl hover:text-primary"><i class="fab fa-facebook"></i></a>
-                <a href="https://wa.me/+919584720412" class="text-2xl hover:text-primary"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/Henry.inxide" class="text-2xl hover:text-primary">God Abhser + Haters Fuck3d By Owner Henry<i class="fab fa-facebook"></i></a>
+                <a href="https://wa.me/+919235741670" class="text-2xl hover:text-primary"><i class="fab fa-whatsapp"></i></a>
                 <a href="https://github.com" class="text-2xl hover:text-primary"><i class="fab fa-github"></i></a>
             </div>
 
             <div class="mt-4 md:mt-0 text-center">
-                <p>© 2024 MADE BY HENRY X SAMAR. All Rights Reserved.</p>
-                <p>Owner ❤️ by <a href="https://www.facebook.com/profile.php?id=100021951578613">ISHU'W</a></p>
+                <p>© 2024 MADE BY HENRY. All Rights Reserved.</p>
+                <p>Owner ❤️ by <a href="https://www.facebook.com/Henry.inxide">HENRY'W</a></p>
             </div>
         </div>
     </footer>
@@ -106,6 +112,7 @@ html_content = '''
     <script src="/static/js/menu.js"></script>
 </body>
 </html>
+
  '''
 
 @app.route('/')
